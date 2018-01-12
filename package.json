@@ -1,0 +1,24 @@
+{
+  "name": "node-hangman",
+  "version": "1.0.0",
+  "description": "packages required for node hangman revision ",
+  "main": "main.js",
+  "dependencies": {
+    "chalk": "^2.3.0",
+    "inquirer": "^5.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eupherein/Node-Hangman.git"
+  },
+  "author": "derek bocskey",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/eupherein/Node-Hangman/issues"
+  },
+  "homepage": "https://github.com/eupherein/Node-Hangman#readme"
+}
