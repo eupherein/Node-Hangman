@@ -1,21 +1,24 @@
-var letters = require('./letters.js')
+var letters = require('./letters.js');
 
 var inquirer = require('inquirer');
 
 
+var userGuess = [''];
+
+// var wahev = letters.splitLetters;
+// console.log(wahev);
 function game() {
-    var start = this;
-
-
 
     inquirer.prompt([{
         name: 'start',
         input: 'input',
-        message: "Input any key to begin Hangman.."
+        message: "Begin hangman"
     }]).then(function (response) {
-        if (response.start) {
-            letters.randomWord();
-        }
+        if (response) {
+             randomWord();
+             console.log(randomWord);
+            // userInput();
+        };
     });
 
 };
